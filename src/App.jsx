@@ -211,8 +211,7 @@ function App() {
             {(() => {
               const figmaUrl = 'https://www.figma.com/make/FmFwZNrydnICDvkItLeZtv/Post-heuristic-High-Fidelity-Design';
               // Use an archive image inside `public/assets/Figma.png` and make the image clickable
-              const assetImg = '/assets/Figma.png'
-              const fallback = 'https://picsum.photos/seed/mockup/900/600'
+              const assetImg = '../dist/assets/Figma.png'
               return (
                 <div className="figma-embed-wrap">
                   <a href={figmaUrl} target="_blank" rel="noopener noreferrer">
