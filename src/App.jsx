@@ -15,7 +15,7 @@ const processSteps = [
       'Summarized domain best practices and reflected on the strengths and limitations of AI-generated insights.'
     ],
     images: [
-      '../dist/assets/Process/project_kickoff.png'
+      '/assets/Process/project_kickoff.png'
     ]
   },
   {
@@ -30,7 +30,7 @@ const processSteps = [
       'Created an interview and debrief guide using AI to surface user challenges, expectations, and emerging UX issues.',
     ],
     images: [
-      '../dist/assets/Process/AI-Assisted Task, Observation & Interview Guides.png',
+      '/assets/Process/AI-Assisted Task, Observation & Interview Guides.png',
     ]
   },
   {
@@ -45,7 +45,7 @@ const processSteps = [
       'Standardized how user session data was logged to keep research artifacts consistent and complete.'
     ],
     images: [
-      '../dist/assets/Process/Participant Access & Data Collection.png'
+      '/assets/Process/Participant Access & Data Collection.png'
     ]
   },
   {
@@ -61,7 +61,7 @@ const processSteps = [
       'Documented supporting artifacts: Dovetail screenshots, thematic analysis links, and the final requirements spreadsheet.'
     ],
     images: [
-      '../dist/assets/Process/User Research, Needs & UX Requirements.png'
+      '/assets/Process/User Research, Needs & UX Requirements.png'
     ]
   },
   {
@@ -77,7 +77,7 @@ const processSteps = [
       'Mapped an end-to-end journey illustrating user goals, actions, emotions, and touchpoints.'
     ],
     images: [
-      '../dist/assets/Process/Personas, Journey Maps, and Scenarios.png'
+      '/assets/Process/Personas, Journey Maps, and Scenarios.png'
     ]
   },
   {
@@ -93,7 +93,7 @@ const processSteps = [
       'Compiled PRD details and prompt logs, reflecting on prompt effectiveness and iteration choices.'
     ],
     images: [
-      '../dist/assets/Process/Low-Fidelity Prototype Generation.png'
+      '/assets/Process/Low-Fidelity Prototype Generation.png'
     ]
   },
   {
@@ -109,7 +109,7 @@ const processSteps = [
       'Redesigned wireframes to address identified UX issues and created a high-fidelity prototype with applied color schemes, typography, and annotated design changes.'
     ],
     images: [
-      '../dist/assets/Process/Cognitive Walkthrough and High-Fidelity Prototyping with AI.png'
+      '/assets/Process/Cognitive Walkthrough and High-Fidelity Prototyping with AI.png'
     ]
   },
   {
@@ -124,7 +124,7 @@ const processSteps = [
       'Updated the prototype in Figma Make based on identified problems and documented all AI prompts used.',
     ],
     images: [
-      '../dist/assets/Process/Heuristic Evaluation.png'
+      '/assets/Process/Heuristic Evaluation.png'
     ]
   },
   {
@@ -138,7 +138,7 @@ const processSteps = [
       'Collected verbatim quotes to anchor design changes.'
     ],
     images: [
-      '../dist/assets/Process/Usability Testing.png'
+      '/assets/Process/Usability Testing.png'
     ]
   },
   {
@@ -152,7 +152,7 @@ const processSteps = [
       'Documented decisions and next bets for future releases.'
     ],
     images: [
-      '../dist/assets/Process/Final Iteration & Decisions.png'
+      '/assets/Process/Final Iteration & Decisions.png'
     ]
   }
 ]
@@ -211,7 +211,7 @@ function App() {
             {(() => {
               const figmaUrl = 'https://www.figma.com/make/FmFwZNrydnICDvkItLeZtv/Post-heuristic-High-Fidelity-Design';
               // Use an archive image inside `public/assets/Figma.png` and make the image clickable
-              const assetImg = '../dist/assets/Figma.png'
+              const assetImg = '/assets/Figma.png'
               return (
                 <div className="figma-embed-wrap">
                   <a href={figmaUrl} target="_blank" rel="noopener noreferrer">
